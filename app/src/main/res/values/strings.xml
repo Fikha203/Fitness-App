@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fitness App</string>
+    <string name="btn_add_exercise">Add Exercise</string>
+    <string name="dropdown_delete">Delete</string>
+    <string name="btn_more_options">opsi tambahan</string>
+    <string name="dialog_title_delete">Do you want to delete %1$s\\?</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="title_edit_exercise">Edit Exercise</string>
+    <string name="btn_save">Save</string>
+    <string name="label_exercise_name">Name</string>
+    <string name="label_exercise_description">Description</string>
+    <string name="dropdown_edit">Edit</string>
+    <string name="btn_add_plan">Add Plan</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_exercise">Exercise</string>
+    <string name="btn_start_workout">Start Workout</string>
+    <string name="btn_finish_workout">Finish Workout</string>
+    <string name="title_detail_workout">Detail Workout</string>
+    <string name="menu_history">History</string>
+</resources>
