@@ -46,12 +46,6 @@ class MainActivity : ComponentActivity() {
             FitnessAppTheme {
                 setContent {
                     MainScreen()
-//                    val navController = rememberNavController()
-//                    NavHost(navController, startDestination = "home") {
-//                        composable("home") { HomeScreen(navController) }
-//                        composable("exercise") { ExerciseScreen(navController) }
-//                        composable("history") { HistoryScreen(navController) }
-//                    }
                 }
             }
         }
@@ -145,7 +139,7 @@ fun MainScreen(
                         popBackStack = { navController.popBackStack() },
                         navToHistory = {
                             navController.navigate("history") {
-                                popUpTo("workout") { inclusive = true }
+                                popUpTo("home") {   }
                             }
                         },
                     )
@@ -205,7 +199,6 @@ private fun BottomBar(
                     imageVector = item.icon, contentDescription = item.title
                 )
             }, label = { Text(item.title) },
-//                selected = false,
                 selected = currentRoute == item.screen, onClick = {
                     navController.navigate(item.screen) {
                         popUpTo(navController.graph.findStartDestination().id) {
